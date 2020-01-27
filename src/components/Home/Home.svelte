@@ -1,8 +1,8 @@
 <script>
-    import AboutBackground from '../../../static/IMG_1280.jpeg'
-    import PoetryBackground from '../../../static/IMG_1281.jpeg'
-    import BlogBackground from '../../../static/IMG_1284.jpeg'
-    import MediaArtBackground from '../../../static/IMG_1285.jpeg'
+    // import AboutBackground from '../../../static/IMG_1280.jpeg'
+    // import PoetryBackground from '../../../static/IMG_1281.jpeg'
+    // import BlogBackground from '../../../static/IMG_1284.jpeg'
+    // import MediaArtBackground from '../../../static/IMG_1285.jpeg'
 </script>
 
 <style lang="scss">
@@ -64,14 +64,14 @@
 </style>
 
 <div class="Home">
-    <div class="Collumn Section" id="Blog" style="background-image: url({BlogBackground})">
+    <div class="Collumn Section" id="Blog" style="background-image: url('IMG_1284.jpeg')">
         <a href="blog">
             <div class="Overlay">
                 <h2>Blog</h2>
             </div>
         </a>
     </div>
-    <div class="Collumn Section" id="Media-Art" style="background-image: url({MediaArtBackground})">
+    <div class="Collumn Section" id="Media-Art" style="background-image: url('IMG_1285.jpeg')">
         <a href="media-art">
             <div class="Overlay">
                 <h2>Media & Art</h2>
@@ -79,14 +79,14 @@
         </a>
     </div>
     <div class="Collumn" id="About-Poetry">
-        <div class="Section" id="About" style="background-image: url({AboutBackground})" >
+        <div class="Section" id="About" style="background-image: url('IMG_1280.jpeg')" >
             <a href="about">
                 <div class="Overlay">
                     <h2>About</h2>
                 </div>
             </a>
         </div>
-        <div class="Section" id="Poetry" style="background-image: url({PoetryBackground})">
+        <div class="Section" id="Poetry" style="background-image: url('IMG_1281.jpeg')">
             <a href="poetry">
                 <div class="Overlay">
                     <h2>Poetry</h2>
