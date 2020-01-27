@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master
-
 # This line should *not* be indented
 publish_mode: editorial_workflow # Allows you to save drafts before publishing them
 media_folder: static/images/uploads # Media files will be stored in the repo under images/uploads
