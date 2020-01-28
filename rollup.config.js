@@ -9,6 +9,7 @@ import pkg from './package.json';
 import sveltePreprocess from 'svelte-preprocess';
 import image from '@rollup/plugin-image';
 import json from '@rollup/plugin-json';
+import builtins from 'rollup-plugin-node-builtins';
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
@@ -25,6 +26,7 @@ export default {
 		input: config.client.input(),
 		output: config.client.output(),
 		plugins: [
+			builtins(),
 			replace({
 				'process.browser': true,
 				'process.env.NODE_ENV': JSON.stringify(mode)
